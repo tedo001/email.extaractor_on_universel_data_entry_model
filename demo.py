@@ -26,7 +26,7 @@ def get_email_data(email_account, password, search_criteria="UNSEEN", folder="IN
                     "body": _get_email_body(email_msg)
                 })
             return email_data
-    except Exception as e;aaaaaaaaaaaaaaaaaaaaaaaa
+    except Exception as e:
         raise Exception(f"Email Processing Failed: {str(e)}")
 def _get_email_body(msg):
     if msg.is_multipart():
