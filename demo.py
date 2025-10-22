@@ -1,5 +1,5 @@
 import imapclient
-import email
+import Email
 from email.policy import default
 import os
 log_dir = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'logs')
