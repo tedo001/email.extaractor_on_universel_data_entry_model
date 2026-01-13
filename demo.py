@@ -1,4 +1,6 @@
-import imapclient
+"""
+its a demo code for a data-entry automation model 
+"""import imapclient
 import email
 from email.policy import default
 import os
